@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <h2>Add Student</h2>
+    <form id="studentForm" action="insert_student.php" method="post">
+        Enrollment No: <input type="text" name="enrollment_no" required><br>
+        Student Name: <input type="text" name="student_name" required><br>
+        Age: <input type="number" name="age"><br>
+        Current Year: <input type="number" name="current_year"><br>
+        Phone Number: <input type="text" name="phone_number"><br>
+        Email ID: <input type="email" name="email_id"><br>
+        Parents Phone Number: <input type="text" name="parents_phone_number" required><br>
+        Room Type:
+        <select name="room_type" required>
+            <option value="1bed">1 Bed</option>
+            <option value="2bed">2 Bed</option>
+            <option value="3bed">3 Bed</option>
+        </select><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
