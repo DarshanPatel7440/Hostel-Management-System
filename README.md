@@ -1,4 +1,4 @@
-# Hostel-booking-system
+# Hostel Management System
 
 The Hostel Room Booking System is a web-based application designed to streamline the process of reserving hostel accommodations. Developed using HTML, CSS, JavaScript, and PHP, this system provides a user-friendly interface for both administrators and users, ensuring an efficient and seamless booking experience.
 
